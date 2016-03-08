@@ -39,6 +39,8 @@ fit_param = 8;
 
 min_time_resolve = binsize * min_time_res;
 
+addpath('shared_mfiles');
+
 hold on
 
 if (ispc)
